@@ -1,0 +1,129 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Management System</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+
+  </head>
+  <body>
+    {{!-- <div class="background-image"></div> --}}
+    <div class="heading">
+      <h1>Bank-Management System</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/images/pic.jpg" height="50" class="image"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+          </ul>
+          <form class="d-flex" method="POST" action="/" novalidate>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              name="search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-success"
+              type="submit"
+            >Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<div class="container pt-5 pb-5">
+  
+    {{{body}}}
+</div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <style>
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    background-image: url('/images/nitrr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.heading{
+        position: relative;
+        text-align: center;
+        width:100%;
+        padding: 40px;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 400;
+        color: #15f4ee;
+        border: 5px solid #15f4ee;;
+        text-transform:uppercase;
+        letter-spacing: 15px;
+        cursor: pointer;
+        border-radius: 100px;
+        transition: 1.5s;
+}
+.heading:hover{
+        box-shadow: 0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee,
+        0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+        text-shadow: 0 0 5px #15f4ee,0 0 5px #15f4ee;
+}
+.image{
+     width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.nav-item{
+        position: relative;
+        text-align: center;
+        width: 25px;
+        padding: 40px;
+        font-size: 20px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 400;
+        color: #1b1c1c;
+        text-transform:uppercase;
+        letter-spacing: 5px;
+        cursor: pointer;
+        border-radius: 50px;
+}
+  </style>
+</html>
