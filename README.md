@@ -4,7 +4,7 @@ Bank management system is a web app in which admin can add,delete,updadte,view,s
 
 
 ## Tech stack used
-Javascript,Node.js,handlebars,HTML,CSS.
+Javascript,Node.js,handlebars,HTML,CSS,SQL,Xampp.
 ## Screenshot
 Home Page
 ![1bank](https://user-images.githubusercontent.com/86097554/183563172-07340095-48c0-45ca-bbb5-81f8b4da785b.png)
