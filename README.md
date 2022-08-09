@@ -17,3 +17,7 @@ Search User
 
 Edit User
 ![4bank](https://user-images.githubusercontent.com/86097554/183563540-90b8c231-71c7-46a0-92bf-ee10a606c8da.png)
+
+## Real time uses
+This web application will help admin to maintain the user information,change their information, delete,search without
+maintaining extra paper work.
